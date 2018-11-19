@@ -1,23 +1,5 @@
 /*
 
-	Theme Name: avana LLC
-
-	Template URI:
-
-	Description:
-
-	Author:
-
-	Author URI:
-
-	License:
-
-	License URI:
-
-	Version: 1.0
-
-
-
 	1. Body style
 
 	2. Header
@@ -27,8 +9,6 @@
 	4. Footer
 
 	5. About
-
-
 
 */
 
@@ -168,7 +148,9 @@ header[role="header"]{ padding-top:80px; padding-bottom:39px}
 
 header[role="header"] h1{ padding:0; margin:0}
 
-header[role="header"] h1 > a{ max-width:66px; display:block; float:left}
+header[role="header"] h1 > a{ max-width:235px; display:block; float:left}
+
+header[role="header"] h1 #logoTop {width: 235px; height: 70px}
 
 header[role="header"] nav{ padding-top:10px;transition-delay: 0s;
 
@@ -230,7 +212,9 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="ma
 
 footer[role="footer"]{ background-color:#FFF; padding-top:100px; padding-bottom:77px}
 
-footer[role="footer"] > h1 a{ margin:0 auto; display:block; max-width:66px;}
+footer[role="footer"] > h1 a{ margin:0 auto; display:block; max-width:130px;}
+
+footer[role="footer"] > h1 #logoBottom{width: 130px; height: 39px}
 
 footer[role="footer"] nav{ padding-top:37px; padding-bottom:43px}
 
@@ -242,7 +226,7 @@ footer[role="footer"] nav > ul > li > a{ color:#9d9d9d}
 
 footer[role="footer"] nav > ul > li:hover a{ text-decoration:none; color:#ffa166}
 
-footer[role="footer"] ul[role="social-icons"]{ padding:0; margin:0; text-align:center; padding-bottom:40px;}
+footer[role="footer"] ul[role="social-icons"]{ padding:0; margin:0; text-align:center; padding-top:10px; padding-bottom:40px;}
 
 footer[role="footer"] ul[role="social-icons"] > li{ display: inline-block; margin:0 6.5px}
 
