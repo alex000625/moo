@@ -152,7 +152,7 @@ header[role="header"] h1 > a{ max-width:235px; display:block; float:left}
 
 header[role="header"] h1 #logoTop {width: 235px; height: 70px}
 
-header[role="header"] nav{ padding-top:10px;transition-delay: 0s;
+header[role="header"] nav{ padding-top:25px;transition-delay: 0s;
 
 transition-duration: 0.6s;transition-property: all;transition-timing-function: ease;}
 
