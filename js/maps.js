@@ -9,21 +9,21 @@ window.onload = function () {
 
 
 
-
+var uluru = {lat: 37.54436521934516, lng: 127.0450552289069};
 
 
 var options = {
 	mapTypeControlOptions: {
 	mapTypeIds: ['Styled']
 	},
-	center: new google.maps.LatLng(-7.245217594087794, 112.74455556869509),
-	zoom: 16,
-	disableDefaultUI: true,	
+	center: new google.maps.LatLng(37.54436521934516, 127.0450552289069),
+	zoom: 15,
+	disableDefaultUI: true,
 	scrollwheel: false,
 	mapTypeId: 'Styled'
 };
 
-
+
 
 var div = document.getElementById('surabaya');
 
@@ -31,7 +31,7 @@ var div = document.getElementById('surabaya');
 
 var map = new google.maps.Map(div, options);
 
-
+var marker = new google.maps.Marker({position: uluru, map: map});
 
 var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
 
